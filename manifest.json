@@ -1,3 +1,24 @@
 {
+    "name": "Swap All Images",
+    "description": "Swap out all images on page using jQuery",
+    "version": "1.0",
+    "permissions": [
+      "activeTab" 
+    ],
   
-}
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_title": "Swap All Images"
+    },
+    "web_accessible_resources": [
+        "images/kfp2.jpg"
+        ],
+       
+    "manifest_version": 2
+  }
+  
+  
+  
